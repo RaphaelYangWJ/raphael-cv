@@ -69,47 +69,26 @@ content:
               - Research Design & Applications for Data & Analysis (A, 4.0)
               - Fundamentals of Data Engineering (A, 4.0)
               - Statistics for Data Science (B+, 3.8)
-              - Introduction to Data Science Prgramming (Waiver Exam Passed)
+              - Introduction to Data Science Programming (Waiver Exam Passed)
               - Computer Vision (In progress)
 
 
-    content:
-      - layout: left
-        title: University of California, Berkeley
-        caption: 2022 Sep - Present (United States)
-        sub_title: MSc Information and Data Science (STEM)
-        description: | # this will include new lines to allow paragraphs
-          - <strong>GPA</strong>: 3.9 / 4.0
-          - <strong>Core Modules</strong>: 
-              - Applied Machine Learning (A, 4.0)
-              - Research Design & Applications for Data & Analysis (A, 4.0)
-              - Fundamentals of Data Engineering (A, 4.0)
-              - Statistics for Data Science (B+, 3.8)
-              - Introduction to Data Science Prgramming (Waiver Exam Passed)
-              - Computer Vision (In progress)
-
-
-
-
-
-  - title: Projects # Title for the section
+  - title: Academic Research - Global Wildfire Prediction using Convolutional DNN (Government Funded) # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+      - layout: left
+        title: Lawrence Berkeley National Laboratory
+        sub_title: Machine Learning Researcher
+        link: https://github.com/RaphaelYangWJ/wildfire-prediction/tree/main
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - <strong>Wildfire Image Processing:</strong> Transformed climate data (NC4 format) by Numpy to three-dimensional matrices including temporal and geospatial information. Performed matrix transformations to map the data into RGB 3-channel image arrays, enhancing the differentiation of burnt regions through intensified RGB color values to bolster the neural network's image recognition capabilities.
+          - <strong>Feature Extraction and Image Convolution:</strong> Extracted 13 key features including precipitation, burnt area, tree coverage, population density, and lightning frequency. Employed convolution and average pooling techniques to capture neighboring pixel feature information to enrich feature representation. Implemented data imputation, normalization, dimensionality reduction, and tensor transformation to optimize model input.
+          - <strong>Neural Networks Modeling:</strong> Constructed DNN and CNN using PyTorch, with the Tanh activation function and MSE loss function. Integrated Dropout layers to avoid overfitting. Achieved 75% accuracy on the validation set with the Convolutional DNN model, marking a 5% improvement over normal neural networks. Plans are underway to explore the use of Transformer and RNN architectures to further enhance model performance.
+          - <strong>Model Interpretability and Attribution:</strong> Analyzed attributions on the input features of the established neural network models, assessing the contribution of factors such as temperature, wind speed, and geographic location to wildfire predictions. Identified that wind force, fuel load, and the previous year's burnt area (seasonality factor) have significant contributions to wildfire forecasting.
+
+
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -125,34 +104,12 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
