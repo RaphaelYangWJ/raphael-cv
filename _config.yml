@@ -22,7 +22,7 @@ github_username:  RaphaelYangWJ
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: raphaelyang0618
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -72,8 +72,8 @@ content:
               - Introduction to Data Science Programming (Waiver Exam Passed)
               - Computer Vision (In progress)
           </br>
-          - <strong>Imperial College London</strong>: Master of Science in Economics and Strategy for Business (GPA: 3.72/4.0) Sep. 2020 – Nov. 2021
-          - <strong>Shanghai University</strong>: Bachelor of Science in International Economics and Trade (GPA: 3.51/4.0) Sep. 2016 – Jul. 2020
+          - <strong>Imperial College London</strong>: MSc in Economics and Strategy for Business (GPA: 3.72/4.0) Sep. 2020 – Nov. 2021
+          - <strong>Shanghai University</strong>: BSc in International Economics and Trade (GPA: 3.51/4.0) Sep. 2016 – Jul. 2020
 
   - title: Academic Research - Global Wildfire Prediction using Convolutional DNN
     layout: list # Type of content section (list/text)
@@ -123,7 +123,7 @@ content:
           - <strong>Big Data Cleaning and Processing:</strong> Utilized PySpark to merge datasets including all US flight information from 2015-2018, nationwide weather databases, annual holiday information, and natural disaster data. Performed data concatenation, deduplication, missing value removal, and outlier exclusion. Selected 19 effective features from a pool of 200 for subsequent modeling.
           - <strong>Machine Learning Modeling:</strong> Performed distributed data processing on the Azure platform. Experimented logistic regression, perceptron, and neural network models based on Spark, using input features such as departure and arrival airports, taxi-out time, aircraft carriers, and weather conditions to predict the probability of flight delays. Achieved an accuracy of 83.9% on the model's validation set.
 
-  - title: Working Expeirence # Title for the section
+  - title: Working Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
