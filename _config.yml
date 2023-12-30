@@ -46,7 +46,7 @@ linkedin_username: raphaelyang0618
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm Weijie Yang, a data science enthusiast with a Master’s in Information and Data Science from the University of California, 
   Berkeley. My academic path has been enriched by projects like using deep learning for global environmental challenges and 
