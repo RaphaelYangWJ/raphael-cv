@@ -147,8 +147,8 @@ content:
       - layout: left
         description: | # this will include new lines to allow paragraphs
           - <strong>Programming Language:</strong> Python (proficient in Numpy, Pandas, PyTorch, TensorFlow, Sklearn, Matplotlib), SQL, R, Go
-          - <strong>Deep Learning Models:</strong> Neural Networks, CNN, DNN, RNN, LSTM, Transformers
-          - <strong>Machine Learning Models:</strong> Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM), Multilayer Perceptron (MLP), Graph Neural Networks (GNN)
+          - <strong>Deep Learning Models:</strong> Neural Networks, CNN, DNN, RNN, LSTM, Transformers, GNN
+          - <strong>Machine Learning Models:</strong> Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM) and Multilayer Perceptron (MLP)
           - <strong>Big Data Framework:</strong> Spark (including PySpark), MapReduce, Hadoop
           - <strong>Platform:</strong> Amazon AWS, Google Dataproc, Microsoft Azure Databricks, GitHub
 
