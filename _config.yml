@@ -60,7 +60,7 @@ content:
     content:
       - layout: left
         title: University of California, Berkeley
-        caption: 2022 Sep - Present (United States)
+        caption: Sep. 2022 - Present (United States)
         sub_title: MSc Information and Data Science (STEM)
         description: | # this will include new lines to allow paragraphs
           - <strong>GPA</strong>: 3.9 / 4.0
@@ -71,6 +71,10 @@ content:
               - Statistics for Data Science (B+, 3.8)
               - Introduction to Data Science Programming (Waiver Exam Passed)
               - Computer Vision (In progress)
+          </br>
+          - <strong>Imperial College London</strong>: Master of Science in Economics and Strategy for Business (GPA: 3.72/4.0) | Sep. 2020 – Nov. 2021
+          - <strong>Shanghai University</strong>: Bachelor of Science in International Economics and Trade (GPA: 3.51/4.0) | Sep. 2016 – Jul. 2020
+
 
 
   - title: Academic Research - Global Wildfire Prediction using Convolutional DNN
@@ -78,6 +82,7 @@ content:
     content:
       - layout: left
         title: Lawrence Berkeley National Laboratory
+        caption: Aug. 2023 – Present
         sub_title: Machine Learning Researcher
         link: https://github.com/RaphaelYangWJ/wildfire-prediction/tree/main
         description: | # this will include new lines to allow paragraphs
@@ -86,34 +91,73 @@ content:
           - <strong>Neural Networks Modeling:</strong> Constructed DNN and CNN using PyTorch, with the Tanh activation function and MSE loss function. Integrated Dropout layers to avoid overfitting. Achieved 75% accuracy on the validation set with the Convolutional DNN model, marking a 5% improvement over normal neural networks. Plans are underway to explore the use of Transformer and RNN architectures to further enhance model performance.
           - <strong>Model Interpretability and Attribution:</strong> Analyzed attributions on the input features of the established neural network models, assessing the contribution of factors such as temperature, wind speed, and geographic location to wildfire predictions. Identified that wind force, fuel load, and the previous year's burnt area (seasonality factor) have significant contributions to wildfire forecasting.
         
+  - title: Academic Research - DNN and Visualization for Multi-Agency Rocky Intertidal Networks
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Lawrence Berkeley National Laboratoryfdfd
-        sub_title: Machine Learning Researcherdfd
-        link: https://github.com/RaphaelYangWJ/wildfire-prediction/tree/maindf
+        title: University of California, Santa Cruz
+        caption: Aug. 2023 – Nov. 2023
+        sub_title: Machine Learning Researcher
+        link: https://raphaelyangwj.github.io/UCSC-MARINe-DS-Project/Websites/Navigation_page.html
         description: | # this will include new lines to allow paragraphs
-         21321321
+          - <strong>Geospatial Coordinates Computation:</strong> Constructed a 3-dimensional matrix based on UAV-collected topographic data of intertidal sites, including latitude, longitude, and angles. Applied the Haversine Formula to precisely calculate the geospatial coordinates of each biological distribution point within the coordinate system, significantly enhancing data accuracy. Additionally, crafted a user interface using Tkinter and encapsulated the comprehensive program into a software application, successfully applied to data processing of over 8 intertidal sites.
+          - <strong>Multi-classification Neural Networks Construction:</strong> Created a five-class deep neural network model to predict the probability of creature distribution at each coordinate point in the intertidal site, using relative sea-level height as the input feature. Implemented resampling techniques to ensure the balance of the dataset. The final model achieved a classification accuracy of 42.75%, substantially surpassing the baseline accuracy of 20%.
+          - <strong>Interactive Visualization Website Development:</strong> Utilized Apache Echarts as graphing techniques to develop an interactive visualization website. The website displays the distribution of over 16 species across eight intertidal sites, including 3-dimensional topographic heatmaps, biological distribution change river maps, pie charts, and histograms. Constructed an interactive global map using GeoPandas. All research outcomes have been consolidated into the website, currently serving the university’s research staff and students, with plans for future integration into the official university website.
 
 
 
-
-  - title: Experience # Title for the section
+        
+  - title: Course Research - Multi-modal Emotion Detection and Classification using Audio-Visual Data
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        link: https://github.com/RaphaelYangWJ/applied-learning
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - <strong>Visual Data Processing:</strong> Conducted temporal average frame rate sampling on all emotional videos, transforming each video into 6 images. Utilized OpenCV DNN ResNet for facial recognition and centered cropping of images, significantly enhancing feature quality.
+          - <strong>Audio Data Processing:</strong> Transformed audio data into spectrograms and computed over 40 audio features including Mel-Frequency Cepstral Coefficients (MFCC), which served as input data for subsequent convolutional neural networks.
+          - <strong>Multimodal Model Construction:</strong> Developed a multimodal model that simultaneously processes audio and visual inputs. Employed ConvLSTM2D to extract features from video data and Conv2D for feature extraction from audio spectrograms, integrating these features through fully connected layers. Additionally, experimented with transfer learning using VGG19 and YAMNet for audio imagery. The model achieved an accuracy of 52% on the validation set.
 
 
 
+  - title: Course Research - US Flight Delays Prediction by Spark Machine Learning
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        link: https://github.com/RaphaelYangWJ/flight-delays
+        description: | # this will include new lines to allow paragraphs
+          - <strong>Big Data Cleaning and Processing:</strong> Utilized PySpark to merge datasets including all US flight information from 2015-2018, nationwide weather databases, annual holiday information, and natural disaster data. Performed data concatenation, deduplication, missing value removal, and outlier exclusion. Selected 19 effective features from a pool of 200 for subsequent modeling.
+          - <strong>Machine Learning Modeling:</strong> Performed distributed data processing on the Azure platform. Experimented logistic regression, perceptron, and neural network models based on Spark, using input features such as departure and arrival airports, taxi-out time, aircraft carriers, and weather conditions to predict the probability of flight delays. Achieved an accuracy of 83.9% on the model's validation set.
+
+
+  - title: Working Expeirence # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: J.P. Morgan
+        caption: Mar. 2022 - Present
+        sub_title: Rotation Analyst at Payments Dept. (Data Science Track)
+        description: | # this will include new lines to allow paragraphs
+          - <strong>China Advance FX Purchase Transformer Auto Monitoring Model (Modeling Developer)</strong>:
+            - <strong>Awards:</strong> Champion of JPM Digital & Platform Services Excellence Awards & Champion of JPM APAC Payments Awards
+            - <strong>Monitoring Model Development:</strong> Utilized Python as the programming language and SQL Server as the database to develop a monitoring model. This model processes daily client transaction data and payment instructions from the operations department, deducting foreign exchange quotas for various currencies from the database. Moreover, it automatically generates latest transaction quota reports each morning before trading begins and dispatches them to the operations, product, and sales teams.
+            - <strong>Transformer-Based Trading Prediction Model Construction:</strong> Built a predictive model using client historical transaction data, including time, frequency, amount, currency as inputs. This Transformer-based model forecasts customer transaction volumes and quota consumption, providing predictive results to the sales and product teams for decision-making support regarding client quota setup. The model achieved a prediction accuracy of 67.3% for T+5 trading days.
+
+          - <strong>Payments Whitelist Metrics Software –K-Means Machine Learning Techniques (Modeling Developer)</strong>:
+            - <strong>Client Metrics Monitoring:</strong> Conducted client transaction metrics monitoring based on the past 2 years of payment transaction data from balance of payments statements. Calculated 36 metrics including transaction volume, ratio of income to payments, and concentration of transactions, and monitored these indicators. Historical data distributions were used to establish safe and risky thresholds. Detailed checks were performed on customers whose indexes exceeded safe monitoring ranges to ensure transaction security and compliance.
+            - <strong>K-means Clustering Metrics Setup Model Construction:</strong> Plotted scatter graphs for all metrics and applied the K-means clustering algorithm to segment metrics into 3 groups. The 75th percentile of the group with the largest centroid and the group with the smallest centroid were designated as the upper and lower limits of the safe zone, respectively, while the 90th percentile was used to define the bounds of the risky zone. This methodology allowed the machine learning model to automatically determine zones for the 36 metrics, significantly reduce manual effort and time required for metrics setup. This functionality has been packaged into software for convenient use by sales and product departments.
+            - <strong>Project Link:</strong> https://github.com/RaphaelYangWJ/whitelist-product
+
+
+  - title: Skillsets # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        description: | # this will include new lines to allow paragraphs
+          - <strong>Programming Language:</strong> Python (proficient in Numpy, Pandas, PyTorch, TensorFlow, Sklearn, Matplotlib), SQL, R
+          - <strong>Deep Learning Models:</strong> Neural Networks, CNN, DNN, RNN, LSTM, Transformers
+          - <strong>Machine Learning Models:</strong> Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM), and Multilayer Perceptron (MLP)
+          - <strong>Big Data Framework:</strong> Spark (including PySpark), MapReduce, Hadoop
+          - <strong>Platform:</strong> Amazon AWS, Google Dataproc, Microsoft Azure Databricks, GitHub
 
 
 # Footer
