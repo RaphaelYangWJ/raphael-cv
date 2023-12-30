@@ -46,7 +46,7 @@ github_username:  RaphaelYangWJ
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm Weijie Yang, a data science enthusiast with a Master’s in Information and Data Science from the University of California, 
   Berkeley. My academic path has been enriched by projects like using deep learning for global environmental challenges and 
@@ -72,10 +72,8 @@ content:
               - Introduction to Data Science Programming (Waiver Exam Passed)
               - Computer Vision (In progress)
           </br>
-          - <strong>Imperial College London</strong>: Master of Science in Economics and Strategy for Business (GPA: 3.72/4.0) | Sep. 2020 – Nov. 2021
-          - <strong>Shanghai University</strong>: Bachelor of Science in International Economics and Trade (GPA: 3.51/4.0) | Sep. 2016 – Jul. 2020
-
-
+          - <strong>Imperial College London</strong>: Master of Science in Economics and Strategy for Business (GPA: 3.72/4.0) Sep. 2020 – Nov. 2021
+          - <strong>Shanghai University</strong>: Bachelor of Science in International Economics and Trade (GPA: 3.51/4.0) Sep. 2016 – Jul. 2020
 
   - title: Academic Research - Global Wildfire Prediction using Convolutional DNN
     layout: list # Type of content section (list/text)
@@ -90,7 +88,7 @@ content:
           - <strong>Feature Extraction and Image Convolution:</strong> Extracted 13 key features including precipitation, burnt area, tree coverage, population density, and lightning frequency. Employed convolution and average pooling techniques to capture neighboring pixel feature information to enrich feature representation. Implemented data imputation, normalization, dimensionality reduction, and tensor transformation to optimize model input.
           - <strong>Neural Networks Modeling:</strong> Constructed DNN and CNN using PyTorch, with the Tanh activation function and MSE loss function. Integrated Dropout layers to avoid overfitting. Achieved 75% accuracy on the validation set with the Convolutional DNN model, marking a 5% improvement over normal neural networks. Plans are underway to explore the use of Transformer and RNN architectures to further enhance model performance.
           - <strong>Model Interpretability and Attribution:</strong> Analyzed attributions on the input features of the established neural network models, assessing the contribution of factors such as temperature, wind speed, and geographic location to wildfire predictions. Identified that wind force, fuel load, and the previous year's burnt area (seasonality factor) have significant contributions to wildfire forecasting.
-        
+
   - title: Academic Research - DNN and Visualization for Multi-Agency Rocky Intertidal Networks
     layout: list # Type of content section (list/text)
     content:
@@ -104,30 +102,26 @@ content:
           - <strong>Multi-classification Neural Networks Construction:</strong> Created a five-class deep neural network model to predict the probability of creature distribution at each coordinate point in the intertidal site, using relative sea-level height as the input feature. Implemented resampling techniques to ensure the balance of the dataset. The final model achieved a classification accuracy of 42.75%, substantially surpassing the baseline accuracy of 20%.
           - <strong>Interactive Visualization Website Development:</strong> Utilized Apache Echarts as graphing techniques to develop an interactive visualization website. The website displays the distribution of over 16 species across eight intertidal sites, including 3-dimensional topographic heatmaps, biological distribution change river maps, pie charts, and histograms. Constructed an interactive global map using GeoPandas. All research outcomes have been consolidated into the website, currently serving the university’s research staff and students, with plans for future integration into the official university website.
 
-
-
-        
   - title: Course Research - Multi-modal Emotion Detection and Classification using Audio-Visual Data
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Applied Machine Learning
         link: https://github.com/RaphaelYangWJ/applied-learning
         description: | # this will include new lines to allow paragraphs
           - <strong>Visual Data Processing:</strong> Conducted temporal average frame rate sampling on all emotional videos, transforming each video into 6 images. Utilized OpenCV DNN ResNet for facial recognition and centered cropping of images, significantly enhancing feature quality.
           - <strong>Audio Data Processing:</strong> Transformed audio data into spectrograms and computed over 40 audio features including Mel-Frequency Cepstral Coefficients (MFCC), which served as input data for subsequent convolutional neural networks.
           - <strong>Multimodal Model Construction:</strong> Developed a multimodal model that simultaneously processes audio and visual inputs. Employed ConvLSTM2D to extract features from video data and Conv2D for feature extraction from audio spectrograms, integrating these features through fully connected layers. Additionally, experimented with transfer learning using VGG19 and YAMNet for audio imagery. The model achieved an accuracy of 52% on the validation set.
 
-
-
   - title: Course Research - US Flight Delays Prediction by Spark Machine Learning
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Machine Learning at Scale
         link: https://github.com/RaphaelYangWJ/flight-delays
         description: | # this will include new lines to allow paragraphs
           - <strong>Big Data Cleaning and Processing:</strong> Utilized PySpark to merge datasets including all US flight information from 2015-2018, nationwide weather databases, annual holiday information, and natural disaster data. Performed data concatenation, deduplication, missing value removal, and outlier exclusion. Selected 19 effective features from a pool of 200 for subsequent modeling.
           - <strong>Machine Learning Modeling:</strong> Performed distributed data processing on the Azure platform. Experimented logistic regression, perceptron, and neural network models based on Spark, using input features such as departure and arrival airports, taxi-out time, aircraft carriers, and weather conditions to predict the probability of flight delays. Achieved an accuracy of 83.9% on the model's validation set.
-
 
   - title: Working Expeirence # Title for the section
     layout: list # Type of content section (list/text)
@@ -147,7 +141,6 @@ content:
             - <strong>K-means Clustering Metrics Setup Model Construction:</strong> Plotted scatter graphs for all metrics and applied the K-means clustering algorithm to segment metrics into 3 groups. The 75th percentile of the group with the largest centroid and the group with the smallest centroid were designated as the upper and lower limits of the safe zone, respectively, while the 90th percentile was used to define the bounds of the risky zone. This methodology allowed the machine learning model to automatically determine zones for the 36 metrics, significantly reduce manual effort and time required for metrics setup. This functionality has been packaged into software for convenient use by sales and product departments.
             - <strong>Project Link:</strong> https://github.com/RaphaelYangWJ/whitelist-product
 
-
   - title: Skillsets # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -158,7 +151,6 @@ content:
           - <strong>Machine Learning Models:</strong> Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM), and Multilayer Perceptron (MLP)
           - <strong>Big Data Framework:</strong> Spark (including PySpark), MapReduce, Hadoop
           - <strong>Platform:</strong> Amazon AWS, Google Dataproc, Microsoft Azure Databricks, GitHub
-
 
 # Footer
 footer_show_references: false
