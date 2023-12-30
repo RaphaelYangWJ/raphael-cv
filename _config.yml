@@ -71,20 +71,11 @@ content:
               - Statistics for Data Science (B+, 3.8)
               - Introduction to Data Science Prgramming (Waiver Exam Passed)
               - Computer Vision (In progress)
-    content:
-      - layout: left
-        title: Imperial College London
-        caption: 2020 Sep - 2021 Nov (United Kingdom)
-        sub_title: MSc Ecomonics and Strategy for Business
-        description: | # this will include new lines to allow paragraphs
-          - <strong>GPA</strong>: 3.72 / 4.0
-    content:
-      - layout: left
-        title: Imperial College London
-        caption: 2020 Sep - 2021 Nov (United Kingdom)
-        sub_title: MSc Ecomonics and Strategy for Business
-        description: | # this will include new lines to allow paragraphs
-          - <strong>GPA</strong>: 3.72 / 4.0
+        title: University of California, Berkeley
+        caption: 2022 Sep - Present (United States)
+        sub_title: MSc Information and Data Science (STEM)
+
+
 
 
   - title: Projects # Title for the section
