@@ -73,7 +73,7 @@ content:
               - Computer Vision (In progress)
 
 
-  - title: Academic Research - Global Wildfire Prediction using Convolutional DNN (Government Funded) # Title for the section
+  - title: Academic Research - Global Wildfire Prediction using Convolutional DNN
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -85,7 +85,11 @@ content:
           - <strong>Feature Extraction and Image Convolution:</strong> Extracted 13 key features including precipitation, burnt area, tree coverage, population density, and lightning frequency. Employed convolution and average pooling techniques to capture neighboring pixel feature information to enrich feature representation. Implemented data imputation, normalization, dimensionality reduction, and tensor transformation to optimize model input.
           - <strong>Neural Networks Modeling:</strong> Constructed DNN and CNN using PyTorch, with the Tanh activation function and MSE loss function. Integrated Dropout layers to avoid overfitting. Achieved 75% accuracy on the validation set with the Convolutional DNN model, marking a 5% improvement over normal neural networks. Plans are underway to explore the use of Transformer and RNN architectures to further enhance model performance.
           - <strong>Model Interpretability and Attribution:</strong> Analyzed attributions on the input features of the established neural network models, assessing the contribution of factors such as temperature, wind speed, and geographic location to wildfire predictions. Identified that wind force, fuel load, and the previous year's burnt area (seasonality factor) have significant contributions to wildfire forecasting.
-
+        title: Lawrence Berkeley National Laboratoryfdfd
+        sub_title: Machine Learning Researcherdfd
+        link: https://github.com/RaphaelYangWJ/wildfire-prediction/tree/maindf
+        description: | # this will include new lines to allow paragraphs
+         21321321
 
 
 
